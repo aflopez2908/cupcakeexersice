@@ -1,10 +1,10 @@
 main{
     background-color: pink;
-    padding-bottom: 9rem;
+    padding-bottom: 10rem;
 }
 header{
     background-color: #ffaecc;
-    padding: 1rem;
+    padding: 1.5rem;
     position: sticky;
     top:0;
 }
@@ -17,6 +17,7 @@ h2{
     background-color: white;
     border-radius: 20%;
     display: inline;
+    padding-left:2rem;
 }
 #frozen{
     color:red;
@@ -32,6 +33,9 @@ nav{
     color: black;
     text-decoration: none;
     page-break-after: none;  
+    margin-left:50rem;
+    text-decoration: 
+    ;
 
 }
 section{
@@ -39,15 +43,14 @@ section{
 }
 .tarjeta{
     display: inline-block;
-    border: 10px solid green;
     
 }
 a{
     color: black;
 }
 img{
-    width: 50vh;
-    height: 40vh;
+    width: 40vh;
+    height: 30vh;
     border-radius: 2rem;
     display: inline;
 }
@@ -55,4 +58,13 @@ footer{
     background-color: #ffaecc;
     text-align: center;
     padding: 1rem;
+    margin:none;
+}
+
+#whatsapp{
+    position:fixed;
+    width: 4rem;
+    height: auto;
+    right: 4rem;
+    bottom: 3rem;
 }
