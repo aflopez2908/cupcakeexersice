@@ -1,3 +1,29 @@
+/* Estilos generales */
+:root{
+    font-size: 16px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos de encabezado de inicio */
+
+h1{
+    margin: 0;
+}
+p{
+    margin:0;
+}
+
+/* Estilo para el visiitado del nav*/
+a:visisted{
+
+    color:blak
+}
+
 main{
     background-color: pink;
     padding-bottom: 4rem;
@@ -11,11 +37,14 @@ header{
 h2{
     display: inline;
 }
+a{
+    margin-left: 0.6rem;
+}
 
 .texto{
     padding: 1rem;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 40px;
     display: inline;
     padding-left:2rem;
 }
@@ -42,6 +71,7 @@ section{
 }
 .tarjeta{
     display: inline-block;
+    text-align: center;
     
 }
 a{
@@ -57,7 +87,7 @@ img{
 footer{
     background-color: #ffaecc;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
     margin:none;
 }
 
